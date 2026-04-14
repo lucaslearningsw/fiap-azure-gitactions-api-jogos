@@ -18,6 +18,6 @@ COPY --from=build /app/publish .
 ENV ASPNETCORE_HTTP_PORTS=8080
 ENV ASPNETCORE_ENVIRONMENT=Development
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT ["dotnet", "apijogos.dll"]
