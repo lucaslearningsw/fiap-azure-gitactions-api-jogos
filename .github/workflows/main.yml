@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ACR_NAME: acrfiaplabnet.azurecr.io
+  ACR_NAME: acrfiaplabnet
   WEBAPP_NAME: api-users
   RESOURCE_GROUP: rg-fiap-lab
   IMAGE_NAME: apijogos
