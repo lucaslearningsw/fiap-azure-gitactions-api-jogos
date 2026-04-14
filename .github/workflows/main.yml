@@ -8,7 +8,7 @@ on:
 
 env:
   ACR_NAME: acrfiaplabnet
-  WEBAPP_NAME: api-users
+  WEBAPP_NAME: api-jogos
   RESOURCE_GROUP: rg-fiap-lab
   IMAGE_NAME: apijogos
 
