@@ -14,6 +14,7 @@ WORKDIR /app
 
 COPY --from=build /app/publish .
 
+
 ENV ASPNETCORE_HTTP_PORTS=8080
 ENV ASPNETCORE_ENVIRONMENT=Development
 
