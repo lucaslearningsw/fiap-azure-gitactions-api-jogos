@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 env:
   ACR_NAME: acrfiaplabnet
   WEBAPP_NAME: api-users
