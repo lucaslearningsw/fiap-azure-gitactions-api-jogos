@@ -1,0 +1,27 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apiusers-deployment
+  namespace: apiusers
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apiusers
+  template:
+    metadata:
+      labels:
+        app: apiusers
+    spec:
+      containers:
+        - name: apiusers
+          image: lucaslearningsw/apiusers:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          env:
+            - name: ASPNETCORE_HTTP_PORTS
+              value: "80"
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Development"
