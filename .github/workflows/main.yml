@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
 
 env:
-  ACR_NAME: acrfiaplab
-  WEBAPP_NAME: api-jogos
-  RESOURCE_GROUP: rg-fiap-lab
+  ACR_NAME: acrprojetoterraformdev
+  WEBAPP_NAME: app-projeto-terraform-api-dev
+  RESOURCE_GROUP: rg-projeto-terraform-dev
   IMAGE_NAME: apijogos
 
 jobs:
