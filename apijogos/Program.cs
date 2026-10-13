@@ -21,7 +21,7 @@ var games = new List<Game>
     new Game { Id = 2, Name = "Super Mario Bros" },
     new Game { Id = 3, Name = "God of War" },
     new Game { Id = 4, Name = "Elden Ring" },
-    new Game { Id = 5, Name = "TEST GITHUB" }
+    new Game { Id = 5, Name = "TEST GITHUB COMMIT" }
 };
 
 // GET /games - Returns the list of all games
